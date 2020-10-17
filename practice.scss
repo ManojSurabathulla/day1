@@ -1,0 +1,43 @@
+$image_width: 500;
+
+body {
+  background-image: url(./grey.png);
+
+  .container {
+    .author_container {
+      text-align: center;
+    }
+
+    .discription {
+      border: 1px solid grey;
+      border-style: dotted;
+      line-height: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 10px;
+      p {
+        margin: 0;
+      }
+    }
+
+    .author_image_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 10px 0;
+      .image {
+        width: $image_width + px;
+        height: $image_width + px;
+        object-fit: cover;
+        border-radius: $image_width/2 + px;
+      }
+      .famous {
+        border: 1px solid;
+        background-color: darkgrey;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
