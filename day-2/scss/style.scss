@@ -1,0 +1,37 @@
+$primary: #926239;
+$primary-overlay: rgb(146, 98, 57);
+
+#beach-image {
+	background-image: url("/day-2/beachshowcase.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.btn {
+		color: $primary;
+	}
+}
+.about-page {
+	margin: 300px;
+	color: #926239;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+}
+
+.row {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
+}
+#header2 {
+	.row {
+		color: $primary;
+		font-size: 18px;
+		font-family: Arial, Helvetica, sans-serif;
+		line-height: 1.6;
+	}
+}
