@@ -1,0 +1,45 @@
+#beach-image {
+  background-image: url("/day-2/beachshowcase.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#beach-image .btn {
+  color: #926239;
+}
+
+.about-page {
+  margin: 300px;
+  color: #926239;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.row {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+#header2 .row {
+  color: #926239;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=style.css.map */
