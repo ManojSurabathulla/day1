@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-page {
+  text-align: center;
+  background-image: url(/day-3/img/code.jpg);
+  height: 50vh;
+  opacity: 0.8;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#about-page p {
+  font-weight: 600;
+}
+
+#about-page btn {
+  color: #00000a;
+}
+/*# sourceMappingURL=style.css.map */
