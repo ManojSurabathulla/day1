@@ -33,7 +33,8 @@ body {
   font-weight: 600;
 }
 
-#about-page btn {
-  color: #00000a;
+#about-page .btn {
+  background-color: darken #2af12a;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
